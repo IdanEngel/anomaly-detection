@@ -6,7 +6,7 @@
 2) Go to your GitHub organiztion, and add the webhook, paste the smee url
 3) Clone the project to your local environment
 4) Add .env file with the given url from [Smee.io](https://smee.io) and port number
-5) Run on terminal ```npm install``` to dowanload localy all the project dependcies
+5) Run on terminal ```npm install``` to dowanload localy all the project dependencies
 6) Run on terminal ```npm start``` and your server would be up, and running 
 
 For any question feel welcome to contact me :)
