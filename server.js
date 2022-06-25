@@ -27,7 +27,7 @@ const smee = new SmeeClient({
     logger: console
 })
 
-// connect ant open the smee socket 
+// connect and open the smee socket 
 events = smee.start()
 // creating a new instance of the class object
 const detect = new anomalyDetection
@@ -53,7 +53,7 @@ app.post('/events', async (req, res) => {
 
     } catch (error) {
         events.end()
-        res.status(error).end()
+        res.status(400).send(error)
     }
 })
 
